@@ -46,15 +46,15 @@ Total code space use is ~39% so plenty of space for more animations if wanted.
 
 ## MplabX
 This is a mplabX 5.20 project. All programming / debug was done with a PicKit4.
-The firmware source is all contained in mad_cat_backpack_v0.asm 
-If you just want to program a backpack using mad_cat_backpack.X.production.hex in microchip IPE is the fastest way. 
+
+Source can be found in the base directory in:
+.\TwinkleTwinkie_iron_badge.asm
+
+If you just want to program a badge the compiled hex image can be found in:
+.\TwinkleTwinkie_iron_badge.X\dist\default\production\TwinkleTwinkie_iron_badge.X.production.hex
 
 ## Documentation
 There is not much for documentation on this one. Just get a badge and load the firmware :)
-Source can be found in the base directory in:
-.\TwinkleTwinkie_iron_badge.asm
-If you just want to program a badge the compiled hex image can be found in:
-.\TwinkleTwinkie_iron_badge.X\dist\default\production\TwinkleTwinkie_iron_badge.X.production.hex
 
 Arc Badge from Mr TwinkleTwinkie:
 - https://www.tindie.com/products/twinkletwinkie/arc-badge-dc27-indie-badge/
