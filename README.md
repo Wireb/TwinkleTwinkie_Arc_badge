@@ -6,7 +6,9 @@ License is MIT so do what you want with it just don't litigate me.
 Animation is choses via the button on the back of the badge and is stored in flash so persistent over power cycles.
 
 Current animations:
+
 |Mode|What|
+| ------------- | ------------- |
 |0|Pulsing Blue with it going slightly lighter and back to full blue.|
 |1|M0 - Green|
 |2|M0 - Red|
