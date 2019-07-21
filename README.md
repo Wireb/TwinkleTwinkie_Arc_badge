@@ -6,37 +6,37 @@ License is MIT so do what you want with it just don't litigate me.
 Animation is choses via the button on the back of the badge and is stored in flash so persistent over power cycles.
 
 Current animations:
-Mode	done	What
-0	Pulsing Blue with it going slightly lighter and back to full blue.
-1	M0 - Green
-2	M0 - Red
-3	M0 - Yellow
-4	M0 - Purple
-5	M0 - Orange
-6	M0 - Pink
-7	Rotating Infinity Stone Colors around the edge with "Pulsing" yellow" in the center.
-8	Chasing Infinity Stone Colors (Red, Orange, blue, purple, green) with twinkle yellow in the middle
-9	Random fast color changing mode
-A	C.A. - white inner, 2 blue 2 red chase
-B	I.M. - Yellow & Red, Blue Center
-C	H - Green & Purple, White Center
-D	T - Blue & White, Red Center
-E	H - Blue & Purple, White Center
-F	B.W. - Red & White, Green Center
-10	cool mistake on above red outer. Blue inner. White led chasing
-11	yellow inner, red outer, blue chase
-12	green inner, purple outer, white chase
-13	blue inner, white outer, red chase
-14	blue inner, purple outer, white chase
-15	red inner, white outer, green chase
-16	Solid Blue
-17	Solid Green
-18	Solid Red
-19	Solid Yellow
-1A	Solid Purple
-1B	Solid Orange
-1C	Solid Pink
-1D	Rainbow!
+|Mode|What|
+|0|Pulsing Blue with it going slightly lighter and back to full blue.|
+|1|M0 - Green|
+|2|M0 - Red|
+|3|M0 - Yellow|
+|4|M0 - Purple|
+|5|M0 - Orange|
+|6|M0 - Pink|
+|7|Rotating Infinity Stone Colors around the edge with "Pulsing" yellow" in the center.|
+|8|Chasing Infinity Stone Colors (Red, Orange, blue, purple, green) with twinkle yellow in the middle|
+|9|Random fast color changing mode|
+|A|C.A. - white inner, 2 blue 2 red chase|
+|B|I.M. - Yellow & Red, Blue Center|
+|C|H - Green & Purple, White Center|
+|D|T - Blue & White, Red Center|
+|E|H - Blue & Purple, White Center|
+|F|B.W. - Red & White, Green Center|
+|10|cool mistake on above red outer. Blue inner. White led chasing|
+|11|yellow inner, red outer, blue chase|
+|12|green inner, purple outer, white chase|
+|13|blue inner, white outer, red chase|
+|14|blue inner, purple outer, white chase|
+|15|red inner, white outer, green chase|
+|16|Solid Blue|
+|17|Solid Green|
+|18|Solid Red|
+|19|Solid Yellow|
+|1A|Solid Purple|
+|1B|Solid Orange|
+|1C|Solid Pink|
+|1D|Rainbow!|
 
 
 Total code space use is ~39% so plenty of space for more animations if wanted. 
