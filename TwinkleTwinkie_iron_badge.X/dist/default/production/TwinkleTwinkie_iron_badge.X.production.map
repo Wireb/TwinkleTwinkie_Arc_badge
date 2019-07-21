@@ -1,0 +1,230 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Thu Jun 20 20:08:19 2019
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_1       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   .org_2       code   0x000004    program   0x000b44
+                   .org_0       code   0x000fe0    program   0x000040
+.config_8007_BUILD/DEFAULT/PRODUCTION/_EXT/14       code   0x008007    program   0x000002
+.config_8008_BUILD/DEFAULT/PRODUCTION/_EXT/14       code   0x008008    program   0x000002
+.config_8009_BUILD/DEFAULT/PRODUCTION/_EXT/14       code   0x008009    program   0x000002
+.config_800A_BUILD/DEFAULT/PRODUCTION/_EXT/14       code   0x00800a    program   0x000002
+.config_800B_BUILD/DEFAULT/PRODUCTION/_EXT/14       code   0x00800b    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x0005a5      
+                            0x000fe0    0x000fff      
+                            0x008007    0x00800b      
+            1482 out of 4106 program addresses used, program memory utilization is 36%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                  ENDLOOP   0x00038e    program     static ..\TwinkleTwinkie_iron_badge.asm
+          IRQ_bank0_green   0x00007d    program     static ..\TwinkleTwinkie_iron_badge.asm
+            IRQ_bank0_red   0x000076    program     static ..\TwinkleTwinkie_iron_badge.asm
+            IRQ_bank1_chk   0x000085    program     static ..\TwinkleTwinkie_iron_badge.asm
+          IRQ_bank1_green   0x000096    program     static ..\TwinkleTwinkie_iron_badge.asm
+            IRQ_bank1_red   0x00008f    program     static ..\TwinkleTwinkie_iron_badge.asm
+            IRQ_bank2_chk   0x00009e    program     static ..\TwinkleTwinkie_iron_badge.asm
+          IRQ_bank2_green   0x0000ab    program     static ..\TwinkleTwinkie_iron_badge.asm
+            IRQ_bank2_red   0x0000a4    program     static ..\TwinkleTwinkie_iron_badge.asm
+            IRQ_bank_scan   0x000022    program     static ..\TwinkleTwinkie_iron_badge.asm
+           IRQ_banks_done   0x0000b2    program     static ..\TwinkleTwinkie_iron_badge.asm
+             IRQ_not_tmr1   0x0000b3    program     static ..\TwinkleTwinkie_iron_badge.asm
+      IRQ_set_common_done   0x000065    program     static ..\TwinkleTwinkie_iron_badge.asm
+                 MAINLOOP   0x0000f7    program     static ..\TwinkleTwinkie_iron_badge.asm
+                    START   0x0000b4    program     static ..\TwinkleTwinkie_iron_badge.asm
+              _CYCLE_LFSR   0x000417    program     static ..\TwinkleTwinkie_iron_badge.asm
+               _clear_RGB   0x00042d    program     static ..\TwinkleTwinkie_iron_badge.asm
+               _clear_all   0x000524    program     static ..\TwinkleTwinkie_iron_badge.asm
+          _clear_all_loop   0x000527    program     static ..\TwinkleTwinkie_iron_badge.asm
+                   _delay   0x00053e    program     static ..\TwinkleTwinkie_iron_badge.asm
+              _inf5_cycle   0x0004f7    program     static ..\TwinkleTwinkie_iron_badge.asm
+      _inf5_cycle_not_blu   0x000516    program     static ..\TwinkleTwinkie_iron_badge.asm
+      _inf5_cycle_not_org   0x00050d    program     static ..\TwinkleTwinkie_iron_badge.asm
+      _inf5_cycle_not_pur   0x00051f    program     static ..\TwinkleTwinkie_iron_badge.asm
+      _inf5_cycle_not_red   0x000503    program     static ..\TwinkleTwinkie_iron_badge.asm
+            _pallet_cycle   0x00038f    program     static ..\TwinkleTwinkie_iron_badge.asm
+   _pallet_cycle_not_blue   0x00039b    program     static ..\TwinkleTwinkie_iron_badge.asm
+  _pallet_cycle_not_green   0x0003a4    program     static ..\TwinkleTwinkie_iron_badge.asm
+    _pallet_cycle_not_org   0x0003c9    program     static ..\TwinkleTwinkie_iron_badge.asm
+    _pallet_cycle_not_pur   0x0003bf    program     static ..\TwinkleTwinkie_iron_badge.asm
+    _pallet_cycle_not_red   0x0003ad    program     static ..\TwinkleTwinkie_iron_badge.asm
+ _pallet_cycle_not_yellow   0x0003b6    program     static ..\TwinkleTwinkie_iron_badge.asm
+           _rainbow_cycle   0x0003cf    program     static ..\TwinkleTwinkie_iron_badge.asm
+          _rainbow_cycle0   0x0003dd    program     static ..\TwinkleTwinkie_iron_badge.asm
+          _rainbow_cycle1   0x0003e9    program     static ..\TwinkleTwinkie_iron_badge.asm
+          _rainbow_cycle2   0x0003f4    program     static ..\TwinkleTwinkie_iron_badge.asm
+          _rainbow_cycle3   0x000400    program     static ..\TwinkleTwinkie_iron_badge.asm
+          _rainbow_cycle4   0x00040b    program     static ..\TwinkleTwinkie_iron_badge.asm
+   _rotate_set_inner_ring   0x000431    program     static ..\TwinkleTwinkie_iron_badge.asm
+  _rotate_set_inner_ring1   0x00043f    program     static ..\TwinkleTwinkie_iron_badge.asm
+  _rotate_set_inner_ring2   0x00044a    program     static ..\TwinkleTwinkie_iron_badge.asm
+_rotate_set_inner_ring_ccw   0x000452    program     static ..\TwinkleTwinkie_iron_badge.asm
+_rotate_set_inner_ring_ccw1   0x000460    program     static ..\TwinkleTwinkie_iron_badge.asm
+_rotate_set_inner_ring_ccw2   0x00046b    program     static ..\TwinkleTwinkie_iron_badge.asm
+   _rotate_set_outer_ring   0x000473    program     static ..\TwinkleTwinkie_iron_badge.asm
+  _rotate_set_outer_ring1   0x000481    program     static ..\TwinkleTwinkie_iron_badge.asm
+ _rotate_set_outer_ring10   0x0004e4    program     static ..\TwinkleTwinkie_iron_badge.asm
+ _rotate_set_outer_ring11   0x0004ef    program     static ..\TwinkleTwinkie_iron_badge.asm
+  _rotate_set_outer_ring2   0x00048c    program     static ..\TwinkleTwinkie_iron_badge.asm
+  _rotate_set_outer_ring3   0x000497    program     static ..\TwinkleTwinkie_iron_badge.asm
+  _rotate_set_outer_ring4   0x0004a2    program     static ..\TwinkleTwinkie_iron_badge.asm
+  _rotate_set_outer_ring5   0x0004ad    program     static ..\TwinkleTwinkie_iron_badge.asm
+  _rotate_set_outer_ring6   0x0004b8    program     static ..\TwinkleTwinkie_iron_badge.asm
+  _rotate_set_outer_ring7   0x0004c3    program     static ..\TwinkleTwinkie_iron_badge.asm
+  _rotate_set_outer_ring8   0x0004ce    program     static ..\TwinkleTwinkie_iron_badge.asm
+  _rotate_set_outer_ring9   0x0004d9    program     static ..\TwinkleTwinkie_iron_badge.asm
+                 _set_all   0x000530    program     static ..\TwinkleTwinkie_iron_badge.asm
+            _set_all_loop   0x000533    program     static ..\TwinkleTwinkie_iron_badge.asm
+            _unlock_flash   0x00054d    program     static ..\TwinkleTwinkie_iron_badge.asm
+         button_no_change   0x000131    program     static ..\TwinkleTwinkie_iron_badge.asm
+           button_was_low   0x00012d    program     static ..\TwinkleTwinkie_iron_badge.asm
+          cycle_lfsr_loop   0x000419    program     static ..\TwinkleTwinkie_iron_badge.asm
+        delay_not_running   0x00013d    program     static ..\TwinkleTwinkie_iron_badge.asm
+          init_bank0_loop   0x0000c4    program     static ..\TwinkleTwinkie_iron_badge.asm
+          mode0_ramp_down   0x00015a    program     static ..\TwinkleTwinkie_iron_badge.asm
+               mode7_done   0x0001b7    program     static ..\TwinkleTwinkie_iron_badge.asm
+          mode7_ramp_down   0x0001ac    program     static ..\TwinkleTwinkie_iron_badge.asm
+               modeA_loop   0x0001f4    program     static ..\TwinkleTwinkie_iron_badge.asm
+               modeB_loop   0x00021d    program     static ..\TwinkleTwinkie_iron_badge.asm
+               modeC_loop   0x000246    program     static ..\TwinkleTwinkie_iron_badge.asm
+               modeD_loop   0x00026f    program     static ..\TwinkleTwinkie_iron_badge.asm
+               modeE_loop   0x000298    program     static ..\TwinkleTwinkie_iron_badge.asm
+               modeF_loop   0x0002c1    program     static ..\TwinkleTwinkie_iron_badge.asm
+           mode_data_loop   0x00011a    program     static ..\TwinkleTwinkie_iron_badge.asm
+   mode_start_flash_write   0x000125    program     static ..\TwinkleTwinkie_iron_badge.asm
+              not_mode0_6   0x000169    program     static ..\TwinkleTwinkie_iron_badge.asm
+               not_mode10   0x0002fa    program     static ..\TwinkleTwinkie_iron_badge.asm
+               not_mode11   0x000312    program     static ..\TwinkleTwinkie_iron_badge.asm
+               not_mode12   0x00032a    program     static ..\TwinkleTwinkie_iron_badge.asm
+               not_mode13   0x000342    program     static ..\TwinkleTwinkie_iron_badge.asm
+               not_mode14   0x00035a    program     static ..\TwinkleTwinkie_iron_badge.asm
+               not_mode15   0x000372    program     static ..\TwinkleTwinkie_iron_badge.asm
+            not_mode16_1C   0x00037f    program     static ..\TwinkleTwinkie_iron_badge.asm
+               not_mode1D   0x00038c    program     static ..\TwinkleTwinkie_iron_badge.asm
+                not_mode7   0x0001ba    program     static ..\TwinkleTwinkie_iron_badge.asm
+           not_mode7_skip   0x000194    program     static ..\TwinkleTwinkie_iron_badge.asm
+                not_mode8   0x0001d2    program     static ..\TwinkleTwinkie_iron_badge.asm
+           not_mode8_skip   0x0001cc    program     static ..\TwinkleTwinkie_iron_badge.asm
+                not_mode9   0x0001ec    program     static ..\TwinkleTwinkie_iron_badge.asm
+                not_modeA   0x000215    program     static ..\TwinkleTwinkie_iron_badge.asm
+                not_modeB   0x00023e    program     static ..\TwinkleTwinkie_iron_badge.asm
+                not_modeC   0x000267    program     static ..\TwinkleTwinkie_iron_badge.asm
+                not_modeD   0x000290    program     static ..\TwinkleTwinkie_iron_badge.asm
+                not_modeE   0x0002b9    program     static ..\TwinkleTwinkie_iron_badge.asm
+                not_modeF   0x0002e2    program     static ..\TwinkleTwinkie_iron_badge.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+            IRQ_bank_scan   0x000022    program     static ..\TwinkleTwinkie_iron_badge.asm
+      IRQ_set_common_done   0x000065    program     static ..\TwinkleTwinkie_iron_badge.asm
+            IRQ_bank0_red   0x000076    program     static ..\TwinkleTwinkie_iron_badge.asm
+          IRQ_bank0_green   0x00007d    program     static ..\TwinkleTwinkie_iron_badge.asm
+            IRQ_bank1_chk   0x000085    program     static ..\TwinkleTwinkie_iron_badge.asm
+            IRQ_bank1_red   0x00008f    program     static ..\TwinkleTwinkie_iron_badge.asm
+          IRQ_bank1_green   0x000096    program     static ..\TwinkleTwinkie_iron_badge.asm
+            IRQ_bank2_chk   0x00009e    program     static ..\TwinkleTwinkie_iron_badge.asm
+            IRQ_bank2_red   0x0000a4    program     static ..\TwinkleTwinkie_iron_badge.asm
+          IRQ_bank2_green   0x0000ab    program     static ..\TwinkleTwinkie_iron_badge.asm
+           IRQ_banks_done   0x0000b2    program     static ..\TwinkleTwinkie_iron_badge.asm
+             IRQ_not_tmr1   0x0000b3    program     static ..\TwinkleTwinkie_iron_badge.asm
+                    START   0x0000b4    program     static ..\TwinkleTwinkie_iron_badge.asm
+          init_bank0_loop   0x0000c4    program     static ..\TwinkleTwinkie_iron_badge.asm
+                 MAINLOOP   0x0000f7    program     static ..\TwinkleTwinkie_iron_badge.asm
+           mode_data_loop   0x00011a    program     static ..\TwinkleTwinkie_iron_badge.asm
+   mode_start_flash_write   0x000125    program     static ..\TwinkleTwinkie_iron_badge.asm
+           button_was_low   0x00012d    program     static ..\TwinkleTwinkie_iron_badge.asm
+         button_no_change   0x000131    program     static ..\TwinkleTwinkie_iron_badge.asm
+        delay_not_running   0x00013d    program     static ..\TwinkleTwinkie_iron_badge.asm
+          mode0_ramp_down   0x00015a    program     static ..\TwinkleTwinkie_iron_badge.asm
+              not_mode0_6   0x000169    program     static ..\TwinkleTwinkie_iron_badge.asm
+           not_mode7_skip   0x000194    program     static ..\TwinkleTwinkie_iron_badge.asm
+          mode7_ramp_down   0x0001ac    program     static ..\TwinkleTwinkie_iron_badge.asm
+               mode7_done   0x0001b7    program     static ..\TwinkleTwinkie_iron_badge.asm
+                not_mode7   0x0001ba    program     static ..\TwinkleTwinkie_iron_badge.asm
+           not_mode8_skip   0x0001cc    program     static ..\TwinkleTwinkie_iron_badge.asm
+                not_mode8   0x0001d2    program     static ..\TwinkleTwinkie_iron_badge.asm
+                not_mode9   0x0001ec    program     static ..\TwinkleTwinkie_iron_badge.asm
+               modeA_loop   0x0001f4    program     static ..\TwinkleTwinkie_iron_badge.asm
+                not_modeA   0x000215    program     static ..\TwinkleTwinkie_iron_badge.asm
+               modeB_loop   0x00021d    program     static ..\TwinkleTwinkie_iron_badge.asm
+                not_modeB   0x00023e    program     static ..\TwinkleTwinkie_iron_badge.asm
+               modeC_loop   0x000246    program     static ..\TwinkleTwinkie_iron_badge.asm
+                not_modeC   0x000267    program     static ..\TwinkleTwinkie_iron_badge.asm
+               modeD_loop   0x00026f    program     static ..\TwinkleTwinkie_iron_badge.asm
+                not_modeD   0x000290    program     static ..\TwinkleTwinkie_iron_badge.asm
+               modeE_loop   0x000298    program     static ..\TwinkleTwinkie_iron_badge.asm
+                not_modeE   0x0002b9    program     static ..\TwinkleTwinkie_iron_badge.asm
+               modeF_loop   0x0002c1    program     static ..\TwinkleTwinkie_iron_badge.asm
+                not_modeF   0x0002e2    program     static ..\TwinkleTwinkie_iron_badge.asm
+               not_mode10   0x0002fa    program     static ..\TwinkleTwinkie_iron_badge.asm
+               not_mode11   0x000312    program     static ..\TwinkleTwinkie_iron_badge.asm
+               not_mode12   0x00032a    program     static ..\TwinkleTwinkie_iron_badge.asm
+               not_mode13   0x000342    program     static ..\TwinkleTwinkie_iron_badge.asm
+               not_mode14   0x00035a    program     static ..\TwinkleTwinkie_iron_badge.asm
+               not_mode15   0x000372    program     static ..\TwinkleTwinkie_iron_badge.asm
+            not_mode16_1C   0x00037f    program     static ..\TwinkleTwinkie_iron_badge.asm
+               not_mode1D   0x00038c    program     static ..\TwinkleTwinkie_iron_badge.asm
+                  ENDLOOP   0x00038e    program     static ..\TwinkleTwinkie_iron_badge.asm
+            _pallet_cycle   0x00038f    program     static ..\TwinkleTwinkie_iron_badge.asm
+   _pallet_cycle_not_blue   0x00039b    program     static ..\TwinkleTwinkie_iron_badge.asm
+  _pallet_cycle_not_green   0x0003a4    program     static ..\TwinkleTwinkie_iron_badge.asm
+    _pallet_cycle_not_red   0x0003ad    program     static ..\TwinkleTwinkie_iron_badge.asm
+ _pallet_cycle_not_yellow   0x0003b6    program     static ..\TwinkleTwinkie_iron_badge.asm
+    _pallet_cycle_not_pur   0x0003bf    program     static ..\TwinkleTwinkie_iron_badge.asm
+    _pallet_cycle_not_org   0x0003c9    program     static ..\TwinkleTwinkie_iron_badge.asm
+           _rainbow_cycle   0x0003cf    program     static ..\TwinkleTwinkie_iron_badge.asm
+          _rainbow_cycle0   0x0003dd    program     static ..\TwinkleTwinkie_iron_badge.asm
+          _rainbow_cycle1   0x0003e9    program     static ..\TwinkleTwinkie_iron_badge.asm
+          _rainbow_cycle2   0x0003f4    program     static ..\TwinkleTwinkie_iron_badge.asm
+          _rainbow_cycle3   0x000400    program     static ..\TwinkleTwinkie_iron_badge.asm
+          _rainbow_cycle4   0x00040b    program     static ..\TwinkleTwinkie_iron_badge.asm
+              _CYCLE_LFSR   0x000417    program     static ..\TwinkleTwinkie_iron_badge.asm
+          cycle_lfsr_loop   0x000419    program     static ..\TwinkleTwinkie_iron_badge.asm
+               _clear_RGB   0x00042d    program     static ..\TwinkleTwinkie_iron_badge.asm
+   _rotate_set_inner_ring   0x000431    program     static ..\TwinkleTwinkie_iron_badge.asm
+  _rotate_set_inner_ring1   0x00043f    program     static ..\TwinkleTwinkie_iron_badge.asm
+  _rotate_set_inner_ring2   0x00044a    program     static ..\TwinkleTwinkie_iron_badge.asm
+_rotate_set_inner_ring_ccw   0x000452    program     static ..\TwinkleTwinkie_iron_badge.asm
+_rotate_set_inner_ring_ccw1   0x000460    program     static ..\TwinkleTwinkie_iron_badge.asm
+_rotate_set_inner_ring_ccw2   0x00046b    program     static ..\TwinkleTwinkie_iron_badge.asm
+   _rotate_set_outer_ring   0x000473    program     static ..\TwinkleTwinkie_iron_badge.asm
+  _rotate_set_outer_ring1   0x000481    program     static ..\TwinkleTwinkie_iron_badge.asm
+  _rotate_set_outer_ring2   0x00048c    program     static ..\TwinkleTwinkie_iron_badge.asm
+  _rotate_set_outer_ring3   0x000497    program     static ..\TwinkleTwinkie_iron_badge.asm
+  _rotate_set_outer_ring4   0x0004a2    program     static ..\TwinkleTwinkie_iron_badge.asm
+  _rotate_set_outer_ring5   0x0004ad    program     static ..\TwinkleTwinkie_iron_badge.asm
+  _rotate_set_outer_ring6   0x0004b8    program     static ..\TwinkleTwinkie_iron_badge.asm
+  _rotate_set_outer_ring7   0x0004c3    program     static ..\TwinkleTwinkie_iron_badge.asm
+  _rotate_set_outer_ring8   0x0004ce    program     static ..\TwinkleTwinkie_iron_badge.asm
+  _rotate_set_outer_ring9   0x0004d9    program     static ..\TwinkleTwinkie_iron_badge.asm
+ _rotate_set_outer_ring10   0x0004e4    program     static ..\TwinkleTwinkie_iron_badge.asm
+ _rotate_set_outer_ring11   0x0004ef    program     static ..\TwinkleTwinkie_iron_badge.asm
+              _inf5_cycle   0x0004f7    program     static ..\TwinkleTwinkie_iron_badge.asm
+      _inf5_cycle_not_red   0x000503    program     static ..\TwinkleTwinkie_iron_badge.asm
+      _inf5_cycle_not_org   0x00050d    program     static ..\TwinkleTwinkie_iron_badge.asm
+      _inf5_cycle_not_blu   0x000516    program     static ..\TwinkleTwinkie_iron_badge.asm
+      _inf5_cycle_not_pur   0x00051f    program     static ..\TwinkleTwinkie_iron_badge.asm
+               _clear_all   0x000524    program     static ..\TwinkleTwinkie_iron_badge.asm
+          _clear_all_loop   0x000527    program     static ..\TwinkleTwinkie_iron_badge.asm
+                 _set_all   0x000530    program     static ..\TwinkleTwinkie_iron_badge.asm
+            _set_all_loop   0x000533    program     static ..\TwinkleTwinkie_iron_badge.asm
+                   _delay   0x00053e    program     static ..\TwinkleTwinkie_iron_badge.asm
+            _unlock_flash   0x00054d    program     static ..\TwinkleTwinkie_iron_badge.asm
+
+
